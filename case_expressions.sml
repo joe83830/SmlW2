@@ -9,9 +9,8 @@ datatype mytype2 = Int of int
 fun f1 x =
   case x of
       Int n => "Hello"
-   (*| Str s => "Bye"*)
+    | S l => "Bye"
 		   
-
 fun f (x : mytype) =
   case x of
       Pizza => 3
